@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <title>Trang chủ</title>
+</head>
+
+<body>
+   <a id="button_scroll_top"><i class="fas fa-arrow-up"></i></a>
+   <a id="calltrap-btn" class="b-calltrap-btn calltrap_offline hidden-phone visible-tablet pulse-2"
+      href="tel:02873070789">
+      <div id="calltrap-ico"></div>
+   </a>
+   <div class="modal fade" style="padding-right: 0!important;" id="modalLoginForm" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+         <div class="modal-content form-discount">
+            <div class="row">
+               <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 box-modal-img pr-0">
+                  <img src="img/sale-off-promotion.jpg" class="img-modal" alt="khuyen-mai-doctor-joint"
+                     title="Khuyến mãi Doctor Joint">
+               </div>
+               <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 box-modal-form d-flex align-items-center 
+                        pl-0 tablet-style">
+                  <form action="" method="post">
+                     <div class="modal-header">
+                        <h4 class="modal-title w-100">Đăng ký nhận giá ưu đãi</h4>
+                        <button type="button" class="close mr-0" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+                        </button>
+                     </div>
+                     <div class="modal-body mx-3 pt-4 pb-4">
+                        <div class="md-form mb-3 text-left">
+                           <label>Họ tên</label>
+                           <input type="text" name="name" class="form-control validate" autocomplete="off" required>
+                        </div>
+                        <div class="md-form mb-3 text-left">
+                           <label>Số điện thoại</label>
+                           <input type="text" name="phone" class="form-control validate only_number" autocomplete="off"
+                              required maxlength="10" onkeypress="validate(event)">
+                           <center>
+                              <button class="btn btn-default mt-4 js_submit" type="submit">Đăng ký
+                                 ngay</button>
+                           </center>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <section class="header">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-12">
+               <div class="navbar d-flex align-items-center justify-content-between">
+                  <div class="logo">
+                     <a href="index.html">
+                        <img src="img/logo-doctor-joint.png" alt="Doctor Joint" title="Doctor Joint">
+                     </a>
+                     <button class="navbar-bar"><i class="fas fa-bars"></i></button>
+                  </div>
+                  <nav class="navbar-content">
+                     <div class="navbar-close"><i class="fas fa-times"></i></div>
+                     <ul>
+                        <li><a href="index.html">TRANG CHỦ</a></li>
+                        <li><a href="about.html">GIỚI THIỆU</a></li>
+                        <li><a href="blog.html">CHĂM SÓC SỨC KHỎE</a></li>
+                        <li><a href="contact.html">LIÊN HỆ</a></li>
+                        <li id="btn-order"><a href="#" data-toggle="modal" data-target="#modalLoginForm">ĐẶT
+                              HÀNG NGAY</a>
+                        </li>
+                     </ul>
+                  </nav>
+                  <div class="navbar-button">
+                     <a href="#" class="btn btn-order" data-toggle="modal" data-target="#modalLoginForm">ĐẶT
+                        HÀNG NGAY</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <div class="blog">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+               <div class="highlight">
+                  <figure class="highlight-img">
+                     <a href="detail-blog.html"><img src="img/nguoi-cao-tuoi.png" alt="" title="" class="img-fluid"></a>
+                  </figure>
+                  <div class="highlight-des">
+                     <h5><a href="detail-blog.html">Dấu hiệu bệnh suy giảm trí nhớ ở người cao tuổi</a></h5>
+                     <p>Việc chăm sóc da đúng cách không chỉ giúp làn da sáng mịn, ngăn ngừa dấu hiệu lão hóa
+                        xuất hiện
+                        mà còn thể hiện rằng chị em phụ nữ biết cách chăm sóc bản thân. Nhưng có một vấn đề nhỏ
+                        là không
+                        phải ai cũng có thời gian đến các trung tâm Spa để thư giãn.
+                     </p>
+                  </div>
+               </div>
+               <div class="row box-blog">
+                  <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+                     <a href="detail-blog.html">
+                        <figure class="img-des-blog"><img alt="" src="img/cacao.jpg" title=""></figure>
+                     </a>
+                  </div>
+                  <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+                     <div class="box-des-blog">
+                        <span class="time-blog">24/12/2019 admin <i class="far fa-comment"></i>3</span>
+                        <h2 class="title-des-blog"><a href="detail-blog.html">Cacao có thật sự tốt cho sức
+                              khỏe?</a>
+                        </h2>
+                        <p class="text-des-blog">Far far away, behind the word mountains, far from the countries
+                           Vokalia
+                           and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                           right at
+                           the coast of the Semantics.
+                        </p>
+                        <div class="mt-4"><a class="btn-des-blog" href="detail-blog.html">Đọc tiếp</a></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row box-blog">
+                  <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+                     <a href="detail-blog.html">
+                        <figure class="img-des-blog"><img alt="" src="img/cacao.jpg" title=""></figure>
+                     </a>
+                  </div>
+                  <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+                     <div class="box-des-blog">
+                        <span class="time-blog">24/12/2019 admin <i class="far fa-comment"></i>3</span>
+                        <h2 class="title-des-blog"><a href="detail-blog.html">Cacao có thật sự tốt cho sức
+                              khỏe?</a>
+                        </h2>
+                        <p class="text-des-blog">Far far away, behind the word mountains, far from the countries
+                           Vokalia
+                           and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                           right at
+                           the coast of the Semantics.
+                        </p>
+                        <div class="mt-4"><a class="btn-des-blog" href="detail-blog.html">Đọc tiếp</a></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row box-blog">
+                  <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+                     <a href="detail-blog.html">
+                        <figure class="img-des-blog"><img alt="" src="img/cacao.jpg" title=""></figure>
+                     </a>
+                  </div>
+                  <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+                     <div class="box-des-blog">
+                        <span class="time-blog">24/12/2019 admin <i class="far fa-comment"></i>3</span>
+                        <h2 class="title-des-blog"><a href="detail-blog.html">Cacao có thật sự tốt cho sức khỏe?
+                           </a>
+                        </h2>
+                        <p class="text-des-blog">Far far away, behind the word mountains, far from the countries
+                           Vokalia
+                           and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                           right at
+                           the coast of the Semantics.
+                        </p>
+                        <div><a class="btn-des-blog" href="detail-blog.html">Đọc tiếp</a></div>
+                     </div>
+                  </div>
+               </div>
+               <ul class="list-number-blog">
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li>…</li>
+                  <li class="next"><a href="#">></a></li>
+               </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 sidebar-widgets fix-nav">
+               <div class="widget-wrap">
+                  <div class="d-flex justify-content-between box-btn-blog">
+                     <span class="btn-blog active-btn" data-sidebar="popular">Phổ biến</span>
+                     <span class="btn-blog" data-sidebar="cate">Danh mục</span>
+                  </div>
+                  <div class="single-sidebar-widget popular-post-widget" id="popular">
+                     <div class="popular-post-list">
+                        <div class="single-post-list d-flex flex-row align-items-center justify-content-start">
+                           <div class="thumb">
+                              <a href="detail-blog.html"><img alt="" class="img-fluid" title=""
+                                    src="img/side-img.jpg"></a>
+                           </div>
+                           <div class="details">
+                              <a href="detail-blog.html">
+                                 <h6>Space The Final Frontier</h6>
+                              </a>
+                              <p>02 Hours ago</p>
+                           </div>
+                        </div>
+                        <div class="single-post-list d-flex flex-row align-items-center">
+                           <div class="thumb">
+                              <a href="detail-blog.html"><img alt="" class="img-fluid" title=""
+                                    src="img/side-img.jpg"></a>
+                           </div>
+                           <div class="details">
+                              <a href="detail-blog.html">
+                                 <h6>The Amazing Hubble</h6>
+                              </a>
+                              <p>02 Hours ago</p>
+                           </div>
+                        </div>
+                        <div class="single-post-list d-flex flex-row align-items-center">
+                           <div class="thumb">
+                              <a href="detail-blog.html"><img alt="" class="img-fluid" title=""
+                                    src="img/side-img.jpg"></a>
+                           </div>
+                           <div class="details">
+                              <a href="detail-blog.html">
+                                 <h6>Astronomy Or Astrology</h6>
+                              </a>
+                              <p>02 Hours ago</p>
+                           </div>
+                        </div>
+                        <div class="single-post-list d-flex flex-row align-items-center">
+                           <div class="thumb">
+                              <a href="detail-blog.html"><img alt="" class="img-fluid" title=""
+                                    src="img/side-img.jpg"></a>
+                           </div>
+                           <div class="details">
+                              <a href="detail-blog.html">
+                                 <h6>Asteroids telescope</h6>
+                              </a>
+                              <p>02 Hours ago</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="single-sidebar-widget post-category-widget" id="cate">
+                     <ul class="cat-list">
+                        <li>
+                           <a href="#" class="d-flex justify-content-between">
+                              <p>Technology</p>
+                              <p>37</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex justify-content-between">
+                              <p>Lifestyle</p>
+                              <p>24</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex justify-content-between">
+                              <p>Fashion</p>
+                              <p>59</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex justify-content-between">
+                              <p>Art</p>
+                              <p>29</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex justify-content-between">
+                              <p>Food</p>
+                              <p>15</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex justify-content-between">
+                              <p>Architecture</p>
+                              <p>09</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex justify-content-between">
+                              <p>Adventure</p>
+                              <p>44</p>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="box-banner-sidebar mt-5">
+                  <div class="banner-sidebar" data-toggle="modal" data-target="#modalLoginForm">
+                     <figure>
+                        <img src="img/product-sidebar.jpg" class="img-fluid" alt="Fito Clear">
+                     </figure>
+                     <div class="banner-sidebar__content d-flex justify-content-between align-items-center">
+                        <div class="left">
+                           <h6>Giảm giá 50%</h6>
+                           <div class="d-flex justify-content-between banner-sidebar__content-row">
+                              <span class="old-price">1.580.000 đ</span>
+                              <span>Chỉ còn</span>
+                           </div>
+                        </div>
+                        <div class="right">
+                           <span class="new-price">790.000 đ</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <hr />
+   <section class="footer">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-12 col-md-4 mt-3">
+               <a href="#">
+                  <div class="title-logo">DOCTOR JOINT</div>
+               </a>
+               <div class="info-footer">
+                  Phân phối độc quyền bởi: Công ty TNHH Soji Labs
+               </div>
+            </div>
+            <div class="col-12 col-md-4 mt-3">
+               <div class="content-footer">Nội Dung</div>
+               <ul>
+                  <li><a href="#">Trang chủ</a></li>
+                  <li><a href="#">Giới thiệu</a></li>
+                  <li><a href="#">Kiến thức sức khỏe</a></li>
+                  <li><a href="#">Liên hệ</a></li>
+               </ul>
+            </div>
+            <div class="col-12 col-md-4 mt-3">
+               <div class="content-footer">Liên hệ</div>
+               <ul>
+                  <li><a href="tel:02873070789">Phone: 02873070789</a></li>
+                  <li><a href="mailto:ecom@soji.asia">Email: ecom@soji.asia</a></li>
+                  <li><a href="#">Website: doctorjoint.vn</a></li>
+                  <li><a href="#" class="disabled">Address: 199 Điện Biên Phủ, P.15, Q.Bình Thạnh</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </section>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/main.js"></script>
+   <script type="text/javascript">
+      $(window).scroll(function () { var e = $(".footer").offset().top, o = ($(".footer").outerHeight(), $(".box-banner-sidebar").offset().top), r = $(".box-banner-sidebar").outerHeight(), a = $(window).height(), s = $(this).scrollTop(); console.log("wS: " + s), console.log(o + r - a + 90), s > o + r - a + 90 ? $(".banner-sidebar").addClass("active-sidebar") : $(".banner-sidebar").removeClass("active-sidebar"), s > e - a && $(".banner-sidebar").removeClass("active-sidebar") });
+   </script>
+</body>
+
+</html>

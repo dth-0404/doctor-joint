@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Trang chủ</title>
+</head>
+
+<body>
+    <a id="button_scroll_top"><i class="fas fa-arrow-up"></i></a>
+    <a id="calltrap-btn" class="b-calltrap-btn calltrap_offline hidden-phone visible-tablet pulse-2"
+        href="tel:02873070789">
+        <div id="calltrap-ico"></div>
+    </a>
+    <div class="modal fade" style="padding-right: 0!important;" id="modalLoginForm" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content form-discount">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 box-modal-img pr-0">
+                        <img src="img/sale-off-promotion.jpg" class="img-modal" alt="khuyen-mai-doctor-joint"
+                            title="Khuyến mãi Doctor Joint">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 box-modal-form d-flex align-items-center 
+                        pl-0 tablet-style">
+                        <form action="" method="post">
+                            <div class="modal-header">
+                                <h4 class="modal-title w-100">Đăng ký nhận giá ưu đãi</h4>
+                                <button type="button" class="close mr-0" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+                                </button>
+                            </div>
+                            <div class="modal-body mx-3 pt-4 pb-4">
+                                <div class="md-form mb-3 text-left">
+                                    <label>Họ tên</label>
+                                    <input type="text" name="name" class="form-control validate" autocomplete="off"
+                                        required>
+                                </div>
+                                <div class="md-form mb-3 text-left">
+                                    <label>Số điện thoại</label>
+                                    <input type="text" name="phone" class="form-control validate only_number"
+                                        autocomplete="off" required maxlength="10" onkeypress="validate(event)">
+                                    <center>
+                                        <button class="btn btn-default mt-4 js_submit" type="submit">Đăng ký
+                                            ngay</button>
+                                    </center>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="navbar d-flex align-items-center justify-content-between">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="img/logo-doctor-joint.png" alt="Doctor Joint" title="Doctor Joint">
+                            </a>
+                            <button class="navbar-bar"><i class="fas fa-bars"></i></button>
+                        </div>
+                        <nav class="navbar-content">
+                            <div class="navbar-close"><i class="fas fa-times"></i></div>
+                            <ul>
+                                <li><a href="index.html">TRANG CHỦ</a></li>
+                                <li><a href="about.html">GIỚI THIỆU</a></li>
+                                <li><a href="blog.html">CHĂM SÓC SỨC KHỎE</a></li>
+                                <li><a href="contact.html">LIÊN HỆ</a></li>
+                                <li id="btn-order"><a href="#" data-toggle="modal" data-target="#modalLoginForm">ĐẶT
+                                        HÀNG NGAY</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="navbar-button">
+                            <a href="#" class="btn btn-order" data-toggle="modal" data-target="#modalLoginForm">ĐẶT
+                                HÀNG NGAY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-banner">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center">
+                    <div class="about-banner__content">
+                        <h5>TẠI SAO NÊN DÙNG DOCTOR JOINT</h5>
+                        <p>Bằng kinh nghiệm hơn 30 năm nghiên cứu và trực tiếp chữa trị cho hàng nghìn bệnh nhân gặp các
+                            vấn đề về xương khớp, tôi khuyên bạn nên sử dụng Doctor Joint ngay hôm nay để thoát khỏi các
+                            căn bệnh về xương khớp vĩnh viễn.<br><br>
+                            Đây là viên uống được chiết xuất hoàn toàn từ thành phần thiên nhiên, tác động trực tiếp từ
+                            bên trong giảm đau nhức xương khớp, nuôi dưỡng, tái tạo sụn và xương dưới sụn tránh gây các
+                            biến chứng nguy hiểm.<br>
+                            Chính bản thân những người bác sĩ như tôi cũng đã sử dụng sản phẩm này để điều trị chứng
+                            thoát vị đĩa đệm và hôm nay tôi muốn giới thiệu đến các bạn để không ai còn bị căn bệnh này
+                            ảnh hưởng đến sức khỏe và cuộc sống nữa.
+                        </p>
+                        <p><b>Trần Quốc Thắng, trưởng khoa Xương Khớp bệnh viện Trung Ương</b></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 h-100">
+                    <div class="about-box-img h-100 position-relative">
+                        <figure><img src="img/bac-si.png" class="img-fluid" alt="tai-sao-nen-dung-doctor-joint">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-4 mt-3">
+                    <a href="#">
+                        <div class="title-logo">DOCTOR JOINT</div>
+                    </a>
+                    <div class="info-footer">
+                        Phân phối độc quyền bởi: Công ty TNHH Soji Labs
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-3">
+                    <div class="content-footer">Nội Dung</div>
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Kiến thức sức khỏe</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 mt-3">
+                    <div class="content-footer">Liên hệ</div>
+                    <ul>
+                        <li><a href="tel:02873070789">Phone: 02873070789</a></li>
+                        <li><a href="mailto:ecom@soji.asia">Email: ecom@soji.asia</a></li>
+                        <li><a href="#">Website: doctorjoint.vn</a></li>
+                        <li><a href="#" class="disabled">Address: 199 Điện Biên Phủ, P.15, Q.Bình Thạnh</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

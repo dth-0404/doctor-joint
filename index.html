@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Trang chủ</title>
+</head>
+
+<body>
+    <a id="button_scroll_top"><i class="fas fa-arrow-up"></i></a>
+    <a id="calltrap-btn" class="b-calltrap-btn calltrap_offline hidden-phone visible-tablet pulse-2"
+        href="tel:02873070789">
+        <div id="calltrap-ico"></div>
+    </a>
+    <div class="modal fade" style="padding-right: 0!important;" id="modalLoginForm" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content form-discount">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 box-modal-img pr-0">
+                        <img src="img/sale-off-promotion.jpg" class="img-modal" alt="khuyen-mai-doctor-joint"
+                            title="Khuyến mãi Doctor Joint">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 box-modal-form d-flex align-items-center 
+                        pl-0 tablet-style">
+                        <form action="" method="post">
+                            <div class="modal-header">
+                                <h4 class="modal-title w-100">Đăng ký nhận giá ưu đãi</h4>
+                                <button type="button" class="close mr-0" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+                                </button>
+                            </div>
+                            <div class="modal-body mx-3 pt-4 pb-4">
+                                <div class="md-form mb-3 text-left">
+                                    <label>Họ tên</label>
+                                    <input type="text" name="name" class="form-control validate" autocomplete="off"
+                                        required>
+                                </div>
+                                <div class="md-form mb-3 text-left">
+                                    <label>Số điện thoại</label>
+                                    <input type="text" name="phone" class="form-control validate only_number"
+                                        autocomplete="off" required maxlength="10" onkeypress="validate(event)">
+                                    <center>
+                                        <button class="btn btn-default mt-4 js_submit" type="submit">Đăng ký
+                                            ngay</button>
+                                    </center>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="navbar d-flex align-items-center justify-content-between">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="img/logo-doctor-joint.png" alt="Doctor Joint" title="Doctor Joint">
+                            </a>
+                            <button class="navbar-bar"><i class="fas fa-bars"></i></button>
+                        </div>
+                        <nav class="navbar-content">
+                            <div class="navbar-close"><i class="fas fa-times"></i></div>
+                            <ul>
+                                <li><a href="index.html">TRANG CHỦ</a></li>
+                                <li><a href="about.html">GIỚI THIỆU</a></li>
+                                <li><a href="blog.html">CHĂM SÓC SỨC KHỎE</a></li>
+                                <li><a href="contact.html">LIÊN HỆ</a></li>
+                                <li id="btn-order"><a href="#" data-toggle="modal" data-target="#modalLoginForm">ĐẶT
+                                        HÀNG NGAY</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="navbar-button">
+                            <a href="#" class="btn btn-order" data-toggle="modal" data-target="#modalLoginForm">ĐẶT
+                                HÀNG NGAY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="container-fluid">
+            <div class="background-banner">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <div class="frame-banner">
+                            <h2>LOẠI BỎ CƠN ĐAU VIÊM KHỚP NHANH CHÓNG</h2>
+                            <h3>ĐẨY NHANH QUÁ TRÌNH TÁI TẠO SỤN</h3>
+                            <div class="col-12 col-md-5 mobile">
+                                <div class="man">
+                                    <img src="img/man-doctor-joint.png" alt="man-review">
+                                </div>
+                            </div>
+                            <p>Những cơn đau xương khớp kéo dài khiến tôi khó khăn trong việc đi lại, điều này ảnh hưởng
+                                trực tiếp đến công việc và sinh hoạt hàng ngày. Tôi đã tìm đến nhiều cách từ Tây đến
+                                Đông y nhưng đều vô dụng, chỉ khi biết đến Doctor Joint thì cuộc sống tôi như sang một
+                                trang mới. Tôi dùng khoảng 1 tháng, mọi cơn đau ở đầu gối biến mất thậm chí cơ thể của
+                                tôi linh hoạt hơn rất nhiều. Cảm ơn Doctor Joint đã cho tôi hưởng trọn niềm vui cùng sức
+                                khỏe tốt bên người thân.</p>
+                            <div class="name-man">
+                                Bác Đào Đăng Quang, Hà Nội
+                            </div>
+                            <div class="see-more">
+                                <button>XEM THÊM</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 desktop">
+                        <div class="man">
+                            <img src="img/man-doctor-joint.png" alt="man-review">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="problem">
+        <div class="container-fluid">
+            <h3>
+                <span class="rounded-1 d-none d-md-block"></span>
+                <span class="rounded-2 d-none d-md-block"></span>
+                Vấn Đề Về Xương Khớp Làm Bạn Lo Lắng
+            </h3>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="detail-problem">
+                        <div class="icon-1 justify-content-between">
+                            <img src="img/problem-1.jpg" alt="Đau nhức khớp">
+                        </div>
+                        <div class="title-problem">Đau nhức khớp</div>
+                        <div class="text-problem">
+                            Là cảm giác khó chịu xuất hiện ở mọi khớp xương trên cơ thể, đặc biệt
+                            là những khu vực thường chịu lực lớn tác động như cột sống, khớp gối, khớp vai,... Cơn đau
+                            đi kèm với tình trạng nóng, đỏ sưng tấy gây khó chịu cho bệnh nhân.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="detail-problem">
+                        <div class="icon-1 justify-content-between">
+                            <img src="img/problem-2.jpg" alt="Đau nhức khớp">
+                        </div>
+                        <div class="title-problem">Thoái hóa khớp</div>
+                        <div class="text-problem">
+                            Là căn bệnh mãn tính chủ yếu xảy ra ở người trung niên và cao tuổi. Là tình trạng sụn khớp
+                            và xương dưới sụn bị tổn thương, đi kèm theo đó là tình trạng viêm khớp và suy giảm lượng
+                            dịch khớp.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="detail-problem">
+                        <div class="icon-1 justify-content-between">
+                            <img src="img/problem-3.jpg" alt="Đau nhức khớp">
+                        </div>
+                        <div class="title-problem">Chuột rút cơ bắp</div>
+                        <div class="text-problem">
+                            Là tình trạng cơ bắp bị co thắt một cách đột ngột gây cảm giác đau buốt dữ dội khiến người
+                            bệnh không thể cử động. Những bộ phận thường xảy ra tình trạng này chính là cẳng chân, đùi,
+                            cơ bụng.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="text-bonus-help">
+                <span class="rounded-1 d-none d-md-block"></span>
+                <span class="rounded-2 d-none d-md-block"></span>
+                Doctor Joint giúp gì cho bạn?
+            </h3>
+        </div>
+    </section>
+    <section class="help-you">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="frame-help">
+                        <div class="title-help">
+                            #Giảm đau viêm khớp
+                        </div>
+                        <div class="text-help">
+                            Với thành phần từ tự nhiên, Doctor Joint giúp giảm các cơn đau viêm khớp hiệu quả và giúp bổ
+                            sung dưỡng chất cần thiết cho sụn khớp.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="frame-help">
+                        <div class="title-help">
+                            #Hồi phục tái tạo sụn
+                        </div>
+                        <div class="text-help">
+                            Các tổn thương ở mô sụn được cải thiện và tái tạo lại nhanh chóng làm giảm cảm giác đau đớn
+                            và khó chịu ở người bệnh.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="frame-help">
+                        <div class="title-help">
+                            #Tăng đàn hồi, linh hoạt
+                        </div>
+                        <div class="text-help">
+                            Doctor Joint bổ sung dưỡng chất cho mô sụn, hỗ trợ làm tăng độ đàn hồi và linh hoạt cho cơ
+                            khớp, giúp cho việc vận động dễ dàng.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ingredient">
+        <div class="container-fluid">
+            <h3>
+                <span class="rounded-1 d-none d-md-block"></span>
+                <span class="rounded-2 d-none d-md-block"></span>
+                Thành Phần Doctor Joint Gồm Những Gì
+            </h3>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="frame-ingredient">
+                        <div class="title-ingredient">
+                            #Glucosamine Sulfate 2 NaCl
+                        </div>
+                        <div class="text-ingredient">
+                            Hỗ trợ giảm các cơn đau nhói khó chịu ở bệnh nhân do viêm khớp gây ra, đồng thời giúp khôi
+                            phục các mô sụn của khớp nhanh chóng
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="frame-ingredient">
+                        <div class="title-ingredient">
+                            #Collagen type II
+                        </div>
+                        <div class="text-ingredient">
+                            Là thành phần giúp bổ sung dưỡng chất thiết yếu cho cơ khớp, mô sụn bên cạnh đó còn là nguồn
+                            dinh dưỡng hỗ trợ các cơ được vận động linh hoạt
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="frame-ingredient">
+                        <div class="title-ingredient">
+                            #Chondroitin Sulfate
+                        </div>
+                        <div class="text-ingredient">
+                            Là hợp chất quan trọng trong quá trình phục hồi các bệnh về xương khớp, kích thích sản sinh
+                            các chất bôi trơn ở sụn khớp, tăng tính đàn hồi của xương
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="frame-ingredient">
+                        <div class="title-ingredient">
+                            #Calci Gluconat
+                        </div>
+                        <div class="text-ingredient">
+                            Giúp duy trì hoạt động hiệu quả của khớp và giúp các cơ khớp vận động dễ dàng, giảm đau nhức
+                            do các bệnh viêm, thoái hóa
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="frame-ingredient">
+                        <div class="title-ingredient">
+                            #Methylsufonylmethane
+                        </div>
+                        <div class="text-ingredient">
+                            Nuôi dưỡng và phục hồi cơ sụn bị tổn thương và giúp làm dịu cơn đau do viêm khớp một cách
+                            nhanh chóng và hiệu quả, ngăn ngừa loãng xương
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="frame-ingredient">
+                        <div class="title-ingredient">
+                            #Vitamin K2 (MK7)
+                        </div>
+                        <div class="text-ingredient">
+                            Hỗ trợ phục hồi và tái tạo các cơ sụn đã tổn thương, kích thích và chuyển hóa tối đa lượng
+                            canxi vào khung xương, giúp xương chắc khỏe.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info-product">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="info-img">
+                        <img src="img/product.jpg">
+                    </div>
+                </div>
+                <div class="col-12 col-md-7">
+                    <div class="text-product">
+                        <img src="img/text-product.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="expert">
+        <div class="container-fluid">
+            <h3>
+                <span class="rounded-1 d-none d-md-block"></span>
+                <span class="rounded-2 d-none d-md-block"></span>
+                Chuyên Gia Nói Gì Về Doctor Joint
+            </h3>
+            <div class="row">
+                <div class="col-12">
+                    <div class="img-expert">
+                        <img src="img/expert.png">
+                    </div>
+                    <div class="text-expert">
+                        Chào mọi người, tôi tên là Trần Quốc Thắng. Với hơn 30 năm kinh nghiệm công tác và nghiên cứu
+                        tại khoa xương khớp bệnh viện Y Dược TPHCM, tôi đã tiếp xúc và chữa trị cho rất nhiều bệnh nhân
+                        đau khổ vì căn bệnh đau nhức xương khớp. Qua nghiên cứu và tìm hiểu, tôi đã tìm ra sản phẩm cải
+                        thiện tình trạng cho bệnh nhân của mình.<br><br>
+                        Sản phẩm mà tôi muốn nhắc đến đó chính là Doctor Joint. Đây là một chế phẩm được nghiên cứu và
+                        chế tạo từ những thành phần từ tự nhiên và có công dụng giảm nhanh cơn đau do viêm khớp, ngoài
+                        ra còn giúp tái tạo, phục hồi cơ sụn hiệu quả. Tùy tình trạng bệnh mà thời gian sử dụng sẽ khác
+                        nhau, ít nhất là 1 tháng.<br><br>
+                        Doctor Joint được bào chế bằng công nghệ hiện đại và những hợp chất đã được nén lại thành viên
+                        rất dễ uống, dễ mang theo trong bất kỳ trường hợp nào.<br>
+                        Đây chính là sản phẩm hoàn hảo nhất để cải thiện các vấn đề về xương khớp mà bạn nên lựa chọn!
+                        <p>Chuyên Gia Nói Gì Về Doctor Joint</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-12">
+                    <div class="frame-video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/DWcJFNfaw9c"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <section class="customer">
+        <div class="container-fluid">
+            <h3>
+                <span class="rounded-1 d-none d-md-block"></span>
+                <span class="rounded-2 d-none d-md-block"></span>
+                Khách Hàng Phản Hồi Sau Khi Dùng Doctor Joint
+            </h3>
+            <div class="row customer-carousel">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="frame-customer">
+                            <img src="img/customer-01.jpg">
+                            <div class="name-customer">
+                                Nguyễn Trần Khánh Vân (45 tuổi, Đà Lạt)
+                            </div>
+                            <div class="text-customer">
+                                Một ngày tình cờ đọc được phản hồi của những người đã từng sử dụng Doctor Joint trên tạp
+                                chí về sức khỏe. Với chút hy vọng nhỏ nhoi, tôi liền đặt mua sản phẩm và không cần nghĩ
+                                ngợi. Khi mới bắt đầu sử dụng, tôi đã cảm nhận được những thay đổi nhỏ nhất. Khớp đầu
+                                gối của tôi cử động dễ dàng hơn, cơn đau cũng giảm đáng kể. Bây giờ là 2 tháng kể từ
+                                ngày dùng, căn bệnh thoái hóa khớp gối đã khỏi hẳn. Đến bây giờ tôi vẫn không thể nào
+                                tin được.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="frame-customer">
+                            <img src="img/customer-02.jpg">
+                            <div class="name-customer">
+                                Nguyễn Thị Thu Tâm (55 tuổi, Hà Nội)
+                            </div>
+                            <div class="text-customer">
+                                Đã nhiều năm sống chung với căn bệnh đau nhức xương khớp, tôi gần như quá mệt mỏi và
+                                tuyệt vọng rồi. Tôi đã tìm đến mọi phương pháp từ dân gian, Đông, Tây y nhưng có lẽ
+                                chúng không có tác dụng với tôi. Đến khi chị bạn giới thiệu cho tôi Doctor Joint thì tôi
+                                mới được tận hưởng một cuộc sống của người khỏe mạnh. Cơn đau giảm hẳn, tôi đã đi lại
+                                được bình thường và cơ thể tràn đầy năng lượng như trẻ ra tận 10 tuổi. Biết ơn người đã
+                                sáng chế ra sản phẩm này vô cùng.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="frame-customer">
+                            <img src="img/customer-03.jpg">
+                            <div class="name-customer">
+                                Tô Đình Anh Tuấn (57 tuổi, Hải Phòng)
+                            </div>
+                            <div class="text-customer">
+                                Tôi đã bị đau nhức xương khớp được gần 8 năm rồi, mỗi lần trái gió trở trời là cơn đau
+                                khiến tôi quằn quại, có khi phải dùng đến 1,2 viên thuốc giảm đau. Thuốc Bắc hay Nam tôi
+                                đều dùng qua mà vô ích cả. Vậy mà đến khi dùng Doctor Joint tôi mới được di chuyển và cử
+                                động đầu gối như người khỏe mạnh bình thường. Tuy nhiên cơn đau vẫn còn đôi chút, tôi sẽ
+                                tiếp tục dùng sản phẩm này đến khi hết hẳn.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="price-form">
+        <div class="container-fluid">
+            <h3>
+                <span class="rounded-1 d-none d-md-block"></span>
+                <span class="rounded-2 d-none d-md-block"></span>
+                Khách Hàng Phản Hồi Sau Khi Dùng Doctor Joint
+            </h3>
+            <div class="row carousel-img-customer">
+                <div class="container-2">
+                    <div class="icon">
+                        <i class="fas button-bonus fa-angle-left"></i>
+                        <i class="fas button-bonus fa-angle-right"></i>
+                    </div>
+                    <div class="carousel-2">
+                        <img src="img/review-01.jpg" class="item-2" id="firstClone">
+                        <img src="img/review-02.jpg" class="item-2">
+                        <img src="img/review-03.jpg" class="item-2">
+                        <img src="img/review-04.jpg" class="item-2">
+                        <img src="img/review-05.jpg" class="item-2">
+                        <img src="img/review-06.jpg" class="item-2" id="lastClone">
+                        <img src="img/review-07.jpg" class="item-2">
+                        <img src="img/review-08.jpg" class="item-2">
+                    </div>
+                </div>
+            </div>
+            <div class="row form-order">
+                <div class="col-12">
+                    <div class="box-form position-relative">
+                        <h5 class="title-form">#Giảm giá 50%</h5>
+                        <div class="box-price">
+                            <div class="left-price">
+                                <span>1.580.000 VNĐ</span>
+                                <span>Giá chỉ còn</span>
+                            </div>
+                            <div class="right-price">
+                                <span>790.000 VNĐ</span>
+                            </div>
+                        </div>
+                        <form class="formorder" action="" method="post">
+                            <input type="text" name="name" autocomplete="off" required placeholder="*Tên của bạn">
+                            <input type="text" name="phone" autocomplete="off" required placeholder="*Số điện thoại"
+                                maxlength="10" onkeypress="validate(event)">
+                            <center>
+                                <button type="submit" class="js_submit" id="formorder1">đặt hàng</button>
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-4 mt-3">
+                    <a href="#">
+                        <div class="title-logo">DOCTOR JOINT</div>
+                    </a>
+                    <div class="info-footer">
+                        Phân phối độc quyền bởi:<br> <b>Công ty TNHH Soji Labs</b>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-3">
+                    <div class="content-footer">Nội Dung</div>
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Chăm sóc sức khỏe</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 mt-3">
+                    <div class="content-footer">Liên hệ</div>
+                    <ul>
+                        <li><a href="tel:02873070789">Phone: 02873070789</a></li>
+                        <li><a href="mailto:ecom@soji.asia">Email: ecom@soji.asia</a></li>
+                        <li><a href="#">Website: doctorjoint.vn</a></li>
+                        <li><a href="#" class="disabled">Address: 199 Điện Biên Phủ, P.15, Q.Bình Thạnh</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

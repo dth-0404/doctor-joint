@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <title>Trang chủ</title>
+</head>
+
+<body>
+   <a id="button_scroll_top"><i class="fas fa-arrow-up"></i></a>
+   <a id="calltrap-btn" class="b-calltrap-btn calltrap_offline hidden-phone visible-tablet pulse-2"
+      href="tel:02873070789">
+      <div id="calltrap-ico"></div>
+   </a>
+   <div class="modal fade" style="padding-right: 0!important;" id="modalLoginForm" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+         <div class="modal-content form-discount">
+            <div class="row">
+               <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 box-modal-img pr-0">
+                  <img src="img/sale-off-promotion.jpg" class="img-modal" alt="khuyen-mai-doctor-joint"
+                     title="Khuyến mãi Doctor Joint">
+               </div>
+               <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 box-modal-form d-flex align-items-center 
+                        pl-0 tablet-style">
+                  <form action="" method="post">
+                     <div class="modal-header">
+                        <h4 class="modal-title w-100">Đăng ký nhận giá ưu đãi</h4>
+                        <button type="button" class="close mr-0" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+                        </button>
+                     </div>
+                     <div class="modal-body mx-3 pt-4 pb-4">
+                        <div class="md-form mb-3 text-left">
+                           <label>Họ tên</label>
+                           <input type="text" name="name" class="form-control validate" autocomplete="off" required>
+                        </div>
+                        <div class="md-form mb-3 text-left">
+                           <label>Số điện thoại</label>
+                           <input type="text" name="phone" class="form-control validate only_number" autocomplete="off"
+                              required maxlength="10" onkeypress="validate(event)">
+                           <center>
+                              <button class="btn btn-default mt-4 js_submit" type="submit">Đăng ký
+                                 ngay</button>
+                           </center>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <section class="header">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-12">
+               <div class="navbar d-flex align-items-center justify-content-between">
+                  <div class="logo">
+                     <a href="index.html">
+                        <img src="img/logo-doctor-joint.png" alt="Doctor Joint" title="Doctor Joint">
+                     </a>
+                     <button class="navbar-bar"><i class="fas fa-bars"></i></button>
+                  </div>
+                  <nav class="navbar-content">
+                     <div class="navbar-close"><i class="fas fa-times"></i></div>
+                     <ul>
+                        <li><a href="index.html">TRANG CHỦ</a></li>
+                        <li><a href="about.html">GIỚI THIỆU</a></li>
+                        <li><a href="blog.html">CHĂM SÓC SỨC KHỎE</a></li>
+                        <li><a href="contact.html">LIÊN HỆ</a></li>
+                        <li id="btn-order"><a href="#" data-toggle="modal" data-target="#modalLoginForm">ĐẶT
+                              HÀNG NGAY</a>
+                        </li>
+                     </ul>
+                  </nav>
+                  <div class="navbar-button">
+                     <a href="#" class="btn btn-order" data-toggle="modal" data-target="#modalLoginForm">ĐẶT
+                        HÀNG NGAY</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="contact">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 col-12">
+               <div class="contact_form_container">
+                  <div class="contact_form_title">Điền các thông tin sau</div>
+                  <form class="contact_form text-center formorder" id="form_contact">
+                     <input id="name" type="text" name="name" class="contact_input" placeholder="Họ tên" required
+                        autocomplete="off">
+                     <input type="tel" id="text" name="phone" class="contact_input" placeholder="Số điện thoại" required
+                        autocomplete="off" onkeypress="validate(event)" maxlength="10">
+                     <input type="text" id="title" name="contact_title" class="style-form d-none" placeholder="Tiêu đề"
+                        value="Thông tin khách trang Liên Hệ">
+                     <textarea class="d-none" id="contact_content" name="contact_content"></textarea>
+                     <input type="hidden" id="contact-nonce" name="contact-nonce" value="cb5aac1772">
+                     <input type="hidden" name="_wp_http_referer" value="/lien-he/">
+                     <input type="submit" class="button contact_button trans_200" value="GỬI THÔNG TIN">
+                  </form>
+               </div>
+            </div>
+            <div class="col-md-6 col-12">
+               <div class="contact_content">
+                  <div class="contact_content_title">Liên hệ với Doctor Joint</div>
+                  <div class="contact_content_text">
+                     <p>Sở hữu ngay sản phẩm <b>Doctor Joint</b> - sản phẩm đã được chứng minh lâm sàng giúp giảm đau và
+                        khó
+                        chịu, nuôi dưỡng và bảo vệ xương khớp.
+                     </p>
+                  </div>
+                  <div class="contact_info">
+                     <ul>
+                        <li>
+                           <i class="fas fa-map-marker-alt">
+                              <a href="#" class="disabled">199 Điện Biên Phủ, P.15, Q.Bình Thạnh</a>
+                           </i>
+                        </li>
+                        <li>
+                           <i class="fas fa-phone-alt"><a href="tel:02873070789">02873070789</a></i>
+                        </li>
+                        <li>
+                           <i class="fas fa-envelope"><a href="mailto:ecom@soji.asia">ecom@soji.asia</a></i>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row mt-4">
+            <div class="col-md-12 col-12">
+               <iframe class="map-style"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15676.71591983619!2d106.698516875819!3d10.797600116822146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ba0ecfc5e3%3A0x5f94be488d27792d!2zMTk5IMSQaeG7h24gQmnDqm4gUGjhu6csIFBoxrDhu51uZyAxNSwgQsOsbmggVGjhuqFuaCwgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2sus!4v1591087917320!5m2!1svi!2sus"
+                  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+         </div>
+      </div>
+   </section>
+   <hr />
+   <section class="footer">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-12 col-md-4 mt-3">
+               <a href="#">
+                  <div class="title-logo">DOCTOR JOINT</div>
+               </a>
+               <div class="info-footer">
+                  Phân phối độc quyền bởi: Công ty TNHH Soji Labs
+               </div>
+            </div>
+            <div class="col-12 col-md-4 mt-3">
+               <div class="content-footer">Nội Dung</div>
+               <ul>
+                  <li><a href="#">Trang chủ</a></li>
+                  <li><a href="#">Giới thiệu</a></li>
+                  <li><a href="#">Kiến thức sức khỏe</a></li>
+                  <li><a href="#">Liên hệ</a></li>
+               </ul>
+            </div>
+            <div class="col-12 col-md-4 mt-3">
+               <div class="content-footer">Liên hệ</div>
+               <ul>
+                  <li><a href="tel:02873070789">Phone: 02873070789</a></li>
+                  <li><a href="mailto:ecom@soji.asia">Email: ecom@soji.asia</a></li>
+                  <li><a href="#">Website: doctorjoint.vn</a></li>
+                  <li><a href="#" class="disabled">Address: 199 Điện Biên Phủ, P.15, Q.Bình Thạnh</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </section>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+</html>
